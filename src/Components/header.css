@@ -1,0 +1,46 @@
+.header {
+    background-color: #272727;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+  
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    text-decoration: none;
+    margin-right: 1000px;
+    list-style: none;
+    font-family: Arial, sans-serif;
+}
+
+.logo:hover {
+    color: #d4d4d4;
+}
+
+.menu {
+    list-style: none;
+    margin-left: auto;
+    margin-right: 0;
+    display: flex;
+}
+
+.home, .transacoes {
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.home:hover, .transacoes:hover {
+    color: #d4d4d4;
+}

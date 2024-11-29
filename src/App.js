@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Header from "./Components/header.js";
+import Footer from "./Components/footer.js";
+
+  function MeuPlano() {
+    return (
+      <main className="main-container">
+        <h1>Home</h1>
+        <div className="saldos">
+          <h2 className="entradas">Total Entradas: 6350</h2>
+          <h2 className="saidas">Total Saídas: 4140</h2>
+          <h2 className="saldo">Saldo Atual: 2210</h2>
+        </div>
+      </main>
+    );
+  }
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <MeuPlano />
+      <Footer />
     </div>
   );
 }

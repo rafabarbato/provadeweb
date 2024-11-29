@@ -1,0 +1,36 @@
+.footer {
+  background-color: #272727;
+  padding: 15px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+  .navbar {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+  }
+
+  .menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin: 0 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
